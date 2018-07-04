@@ -40,6 +40,7 @@ public class ArrayListEx {
         arrayList8.add(0,"cardinal");
         arrayList8.add(1,"blue joy");
         System.out.println(arrayList8.toString());
+
         /**
          * remove
          */
@@ -82,6 +83,16 @@ public class ArrayListEx {
         birds.clear();
         System.out.println(birds.size());
         System.out.println(birds.isEmpty());
+
+        /**
+         * todo:contains()
+         */
+        System.out.println("    contains:");
+        System.out.println(birds.contains("falcon"));
+        birds.add("hawk");
+        birds.add("falcon");
+        System.out.println(birds);
+        System.out.println(birds.contains("falcon"));
 
     }
 }
