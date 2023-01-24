@@ -1,4 +1,4 @@
-package concurency_14_08;
+package concurency_7_07;
 
 import java.util.ArrayList;
 import java.util.concurrent.*;

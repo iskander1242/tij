@@ -1,4 +1,4 @@
-package concurency_14_08;
+package concurency_7_07;
 
 public class LiftOff implements Runnable {
     protected int countdown =10;
